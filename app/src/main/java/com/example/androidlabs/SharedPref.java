@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class SharedPref extends AppCompatActivity {
 EditText name,roll,sap,batch;
-Button Btn;
+Button Btn,showBttn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +22,7 @@ Button Btn;
         sap=(EditText)findViewById(R.id.saptext);
         batch=(EditText)findViewById(R.id.batchtext);
         Btn=(Button)findViewById(R.id.GoBtn);
+        showBttn=(Button)findViewById(R.id.showBtn);
         Btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,6 +33,13 @@ Button Btn;
                 editor.putString("Sap",sap.getText().toString());
                 editor.putString("Batch",batch.getText().toString());
                 editor.commit();
+                Toast.makeText(SharedPref.this,"Successfully Stored in SharedPrefrences",Toast.LENGTH_LONG).show();
+            }
+        });
+        showBttn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SharedPreferences S=getSharedPreferences("MySharedPref", Context.MODE_PRIVATE);
                 String n=(String)S.getString("Name","Not Provided") ;
                 String r=(String)S.getString("Roll","Not Provided") ;
                 String s=(String)S.getString("Sap","Not Provided") ;
