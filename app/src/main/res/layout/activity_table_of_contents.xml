@@ -10,8 +10,10 @@
         android:id="@+id/textView26"
         android:layout_width="158dp"
         android:layout_height="39dp"
-        android:text="Hello World "
-        android:textSize="26sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Google Maps "
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/exp8Btn"
@@ -24,22 +26,26 @@
         android:id="@+id/textView25"
         android:layout_width="158dp"
         android:layout_height="39dp"
-        android:text="Hello World "
-        android:textSize="26sp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:text="Sqlite"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/exp9Btn2"
         app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.895" />
+        app:layout_constraintVertical_bias="0.887" />
 
     <TextView
         android:id="@+id/textView24"
-        android:layout_width="158dp"
-        android:layout_height="39dp"
-        android:text="Hello World "
-        android:textSize="26sp"
+        android:layout_width="177dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Shared Preferences"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/exp8Btn"
@@ -50,24 +56,28 @@
 
     <TextView
         android:id="@+id/textView23"
-        android:layout_width="158dp"
-        android:layout_height="39dp"
-        android:text="Hello World "
-        android:textSize="26sp"
+        android:layout_width="172dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="List View"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/exp8Btn"
-        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.718" />
+        app:layout_constraintVertical_bias="0.72" />
 
     <TextView
         android:id="@+id/textView22"
         android:layout_width="158dp"
         android:layout_height="39dp"
-        android:text="Hello World "
-        android:textSize="26sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Data Exchange"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/exp8Btn"
@@ -80,8 +90,10 @@
         android:id="@+id/textView21"
         android:layout_width="158dp"
         android:layout_height="39dp"
-        android:text="Hello World "
-        android:textSize="26sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Layouts"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/exp8Btn"
@@ -94,12 +106,14 @@
         android:id="@+id/textView20"
         android:layout_width="158dp"
         android:layout_height="39dp"
-        android:text="Hello World "
-        android:textSize="26sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="GUI Components"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/exp8Btn"
-        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintHorizontal_bias="0.147"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.447" />
@@ -108,12 +122,14 @@
         android:id="@+id/textView19"
         android:layout_width="158dp"
         android:layout_height="39dp"
-        android:text="Hello World "
-        android:textSize="26sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Activity Life Cycle"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/exp8Btn"
-        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintHorizontal_bias="0.147"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.362" />
@@ -122,18 +138,20 @@
         android:id="@+id/textView18"
         android:layout_width="158dp"
         android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:text="Hello World "
-        android:textSize="26sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/exp7Btn"
-        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintHorizontal_bias="0.147"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.258" />
+        app:layout_constraintVertical_bias="0.273" />
 
     <Button
-        android:id="@+id/exp8Btn2"
+        android:id="@+id/exp8Btn"
         android:layout_width="128dp"
         android:layout_height="50dp"
         android:text="Experiment 8"
@@ -145,7 +163,7 @@
         app:layout_constraintVertical_bias="0.803" />
 
     <Button
-        android:id="@+id/exp10Btn2"
+        android:id="@+id/exp10Btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Experiment 10"
@@ -157,7 +175,7 @@
         app:layout_constraintVertical_bias="0.988" />
 
     <Button
-        android:id="@+id/exp7Btn2"
+        android:id="@+id/exp7Btn"
         android:layout_width="128dp"
         android:layout_height="49dp"
         android:text="Experiment 7"
@@ -169,7 +187,7 @@
         app:layout_constraintVertical_bias="0.714" />
 
     <Button
-        android:id="@+id/exp9Btn2"
+        android:id="@+id/exp9Btn"
         android:layout_width="128dp"
         android:layout_height="45dp"
         android:text="Experiment 9"
@@ -181,7 +199,7 @@
         app:layout_constraintVertical_bias="0.895" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/exp6Btn"
         android:layout_width="126dp"
         android:layout_height="48dp"
         android:text="Experiment 6"
@@ -193,7 +211,7 @@
         app:layout_constraintVertical_bias="0.625" />
 
     <Button
-        android:id="@+id/exp8Btn"
+        android:id="@+id/exp3Btn"
         android:layout_width="128dp"
         android:layout_height="50dp"
         android:text="Experiment 3"
@@ -205,7 +223,7 @@
         app:layout_constraintVertical_bias="0.352" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/exp1Btn"
         android:layout_width="126dp"
         android:layout_height="48dp"
         android:text="Experiment 1"
@@ -217,7 +235,7 @@
         app:layout_constraintVertical_bias="0.177" />
 
     <Button
-        android:id="@+id/exp9Btn"
+        android:id="@+id/exp4Btn"
         android:layout_width="128dp"
         android:layout_height="45dp"
         android:text="Experiment 4"
@@ -229,7 +247,7 @@
         app:layout_constraintVertical_bias="0.443" />
 
     <Button
-        android:id="@+id/exp7Btn"
+        android:id="@+id/exp2Btn"
         android:layout_width="128dp"
         android:layout_height="49dp"
         android:text="Experiment 2"
@@ -241,7 +259,7 @@
         app:layout_constraintVertical_bias="0.263" />
 
     <Button
-        android:id="@+id/exp10Btn"
+        android:id="@+id/exp5Btn"
         android:layout_width="126dp"
         android:layout_height="51dp"
         android:text="Experiment 5"
@@ -270,14 +288,14 @@
         android:id="@+id/textView17"
         android:layout_width="158dp"
         android:layout_height="39dp"
-        android:text="Hello World "
-        android:textSize="26sp"
+        android:text="Installation"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174" />
+        app:layout_constraintVertical_bias="0.187" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
