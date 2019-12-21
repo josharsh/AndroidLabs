@@ -8,15 +8,27 @@
 
     <TextView
         android:id="@+id/textView27"
-        android:layout_width="211dp"
-        android:layout_height="65dp"
-        android:text="Hello World"
+        android:layout_width="359dp"
+        android:layout_height="121dp"
+        android:text="For Downloading Android Studio Visit: "
         android:textSize="38sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.291" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="304dp"
+        android:layout_height="39dp"
+        android:text="developer.android.com/studio"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452" />
 </androidx.constraintlayout.widget.ConstraintLayout>
