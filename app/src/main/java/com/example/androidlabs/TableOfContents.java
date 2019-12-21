@@ -7,10 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.androidlabs.Experiment10.Experiment10;
 import com.example.androidlabs.Experiment9.Experiment9;
 
 public class TableOfContents extends AppCompatActivity {
-Button exp6,exp7,exp8,exp9;
+Button exp6,exp7,exp8,exp9,exp10;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +46,14 @@ Button exp6,exp7,exp8,exp9;
             @Override
             public void onClick(View v) {
                 Intent i=new Intent(TableOfContents.this, Experiment9.class);
+                startActivity(i);
+            }
+        });
+        exp10=(Button)findViewById(R.id.exp10Btn);
+        exp10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(TableOfContents.this, Experiment10.class);
                 startActivity(i);
             }
         });
